@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel = "stylesheet" href = "estilo.css">
+</head>
+<body>
+    <header> <!--Criação do menu principal da pagina, criando uma lista com links em ancora para outros sites e utilizando uma classe para estilizá-la em css.-->
+        <div class = "menu">
+            <nav>
+                <ui>
+                    <li><a href = "index.html">Sobre mim</a></li>
+                    <li><a href = "formacao.html">Formação Acadêmica</a></li>
+                    <li><a href = "portf.html">Portfólio</a></li>
+                    <li><a href = "contato.html">Contato</a></li>
+                </ui>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id = "cont"> <!-- criação da área de contato, com formulário para contato e uma lista com telefone e email-->
+        <h3>Contato</h3> <!--Titulo de destaque nivel 3 para a área de contatos e lista com os contatos principais -->
+            <ul>
+                <li>Telefone: (11)98099-352x</li>
+                <br>
+                <li>Email: leonardo.cs02x@gmail.com</li>
+                <br>
+            </ul>
+
+        <p>Também, é possível entrar em contato preenchendo o seguinte formulário:</p>
+
+        <form> <!-- formulario que solicita preenchimento de dados como nome, email e mensagem para envio e botao para envio após preenchimento. tambem possui classe para estilização em css -->
+            <label for = "nomesobrenome">Nome e sobrenome: </label>
+            <input type = "text" id = "nomesobrenome" class = "inputp" required>
+
+            <label for = "email"> Email </label>
+            <input type = "email" id = "email" class = "inputp" required placeholder = "seuemail@dominio.com">
+
+            <label for = "mensagem">Mensagem</label>
+            <textarea cols = "40" rows = "10" id = "mensagem" class = "inputp" required></textarea>
+            
+
+            <input type = "submit" value = "Enviar Formulario" class = "botao">
+        </form>
+
+    </div>
+
+    <footer> <!-- Rodapé da pagina com explicação do intuito da pagina. -->
+        <p>Site desenvolvido para fins estudantis e atividades acadêmicas</p>
+    </footer>
+</body>
+</html>
+

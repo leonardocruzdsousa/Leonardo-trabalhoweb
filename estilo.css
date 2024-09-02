@@ -1,0 +1,159 @@
+body{
+    background: rgb(215, 218, 221);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*estilização do menu principal*/
+header {/* estilo em todo o conteudo do header, inserindo cor de fundo propria, espaçamento e bordas arredondadas*/
+    background: rgb(18, 86, 214);
+    padding: 20px;
+    border-radius: 3px;
+    
+}
+
+.menu { /* estilo em todo conteudo dentro da classe 'menu', alterando o comportamento da posição do conteudo, largura, margem e alinhando ao centro*/
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav { /*estilo no conteudo da tag de navegação da pagina. auxiliando em seu posicionamento*/
+    top: 10px;
+    right: 0;
+}
+
+nav li { /* estilo focado nos itens da lista do menu principal, forçando os itens a ficarem um do lado do outro e modificando sua margem*/
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a { /*estilo com foco nas tags ancora que levam a outros sites. retirando a decoração do texto, cor da letra, tamanho da fonte e deixando em caixa alta*/
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover { /* efeito de estilo aplicado ao colocar o ponteiro do mouse sobre as tags ancora, alterando cor e adicionado sublinhado*/
+    color: #eeea18;
+    text-decoration: underline;
+}
+
+/* estilização do site que fala sobre mim*/
+#sobrm h3 {/* estilo com alinhamento e margem para o titulo do conteudo*/
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#sobrm { /*estilo do conteudo da pagina aplicando cor de fundo, de texto, margens, espaçamentos, tamanho da fonte e borda arredondada*/
+
+    background: rgb(18, 86, 214);
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+/* site de formação academica*/
+
+#formac h3{/* estilo com alinhamento e margem para o titulo do conteudo*/
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#formac{/*estilo do conteudo da pagina aplicando cor de fundo, de texto, margens, espaçamentos, tamanho da fonte e borda arredondada*/
+    background: rgb(18, 86, 214);
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* site de contato */
+
+#cont h3{/* estilo com alinhamento e margem para o titulo do conteudo*/
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#cont{/*estilo do conteudo da pagina aplicando cor de fundo, de texto, margens, espaçamentos, tamanho da fonte e borda arredondada*/
+
+    background: rgb(18, 86, 214);
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+form { /* modificando a margem do formulario de contato*/
+    margin: 40px 0;
+}
+
+form label, form legend {/*alterando o comportamento do display das tags label e legend. alterando o tamanho da fonte e a margem também*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.inputp {/* estilizando os inputs do formulario, alterando o comportamento do display, margem, espaçamento e largura*/
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.botao {/*estilizando o botao do formulario em espaçamentos, largura, tamanho da fonte, bordas, transição e cursor*/
+    width:30%;
+    padding: 15px 0;
+    background: rgb(255, 230, 0);
+    color: rgb(18, 86, 214);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* site de portfolio */
+
+#port h3 {/* estilo com alinhamento para o titulo do conteudo*/
+    text-align: center;
+}
+
+#port{/*estilo do conteudo da pagina aplicando cor de fundo, de texto, margens, espaçamentos, tamanho da fonte e borda arredondada*/
+
+    background: rgb(18, 86, 214);
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+li a { /*estilo para as tags ancora da lista, retirando a decoração e alterando a cor de texto para branca*/
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover {/* adicionando efeito nas tags <a>(ancora), que altera a cor de texto e adiciona um sublinhado ao deixar o ponteiro do mouse sobre ela*/
+    color:#eeea18;
+    text-decoration: underline;
+}
+/* rodapé da pagina */
+
+footer {/*adiciona estilo ao rodapé da pagina, com margens, cor de texto, alinhamento, imagem de fundo e espaçamento.*/
+    margin-top: 300px;
+    color: #ffffff;
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
